@@ -1,0 +1,141 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: #F1F2EC;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
+    overflow: hidden;
+}
+
+#MenuWrapper {
+    height: 8vh;
+    padding: 1vh 20vw;
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: bold;
+    font-size: 2.8vh;
+    border-bottom: 1px solid #dddddd; 
+}
+
+.Logo {
+    height: 5vh;
+}
+
+/* .Menu {
+
+} */
+
+.BodyWrapper {
+    height: 90vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.BodyWrapper::-webkit-scrollbar {
+    width: 0px;  /* 스크롤바의 너비 */
+}
+
+.Contents {
+    height: 90vh;
+    /* background-color: rgba(255, 0, 0, 0.208); */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Main_1 {
+    background-image: url('/img/background_1.png');
+    background-size: cover;
+}
+
+#Main_1 p {
+    font-family: 'Sunflower', sans-serif; 
+    font-size: 50px; 
+    margin-top: 0;
+}
+
+.Background {
+    height: 90vh;
+    background-repeat: no-repeat;    
+    background-position: center;
+}
+
+#Store table, th, td{
+    /* border-top : 1px solid rgb(68, 68, 68); 
+    border-bottom : 1px solid rgb(68, 68, 68);  */
+    border-collapse : collapse;
+}
+
+.store_photo td {
+    height: 35vh;
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgb(152, 152, 152);
+}
+.store_photo img {
+    height: 35vh;
+}
+
+.store_txt td {
+    text-align: center;
+    border: 1px solid rgb(152, 152, 152);
+}
+
+.store_txt p {
+    font-size: 15px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+td p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 70vw;
+    border: 0;
+    background-color: #F1F2EC;
+}
+.Qna {
+    border-top : 1px solid rgb(68, 68, 68); 
+    border-bottom : 1px solid rgb(68, 68, 68); 
+    border-collapse : collapse;
+}
+
+.Qna tr:hover {
+    background-color: #88B2D1;
+}
+
+.qnA td{
+    height: 50vh;
+    border-top : 1px solid rgb(68, 68, 68); 
+    border-bottom : 1px solid rgb(68, 68, 68); 
+    border-collapse : collapse;
+    vertical-align : top;
+    background-color: #ffffff94;
+}
+
+.qnA p {
+    padding-left: 1vw;
+    padding-top: 3vh;
+}
