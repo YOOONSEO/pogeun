@@ -32,7 +32,7 @@ function Main() {
 
 function Introduction() {
     document.getElementById('HERE').innerHTML =
-    "<div id='Introduction' class='BodyWrapper' style='text-align: center;'>" +
+    "<div id='Introduction' class='BodyWrapper' style='display: flex; flex-direction: column; align-items: center;'>" +
         "<img src='./img/Introduction/001.png' style='margin-top: 10vh;'/>" +
         "<img src='./img/Introduction/002.png' />" +
         "<img src='./img/Introduction/003.png' />" +
