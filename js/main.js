@@ -17,7 +17,7 @@ function Main() {
                 "이번 여름, 'MOMO'와 함께 공기로 모기를 차단해봐요.</p>" +
         "</div>" +
         "<div class='Contents' style='height: 180vh;'>" +
-            "<img src='/img/background_2.png'/>" +
+            "<img src='./img/background_2.png'/>" +
         "</div>" +
         "<div class='Contents' style='height: 40vh; background-color: #D3D6C4; display: flex; align-items: flex-end; padding-bottom: 10vh;'>" +
             "<div style='width: 60vw; font-size: 15px; color: white; display: flex; flex-direction: column;'>" +
@@ -33,23 +33,23 @@ function Main() {
 function Introduction() {
     document.getElementById('HERE').innerHTML =
     "<div id='Introduction' class='BodyWrapper' style='text-align: center;'>" +
-        "<img src='/img/Introduction/001.png' style='margin-top: 10vh;'/>" +
-        "<img src='/img/Introduction/002.png' />" +
-        "<img src='/img/Introduction/003.png' />" +
-        "<img src='/img/Introduction/004.png' />" +
-        "<img src='/img/Introduction/005.png' />" +
-        "<img src='/img/Introduction/006.png' />" +
-        "<img src='/img/Introduction/007.png' />" +
-        "<img src='/img/Introduction/008.png' />" +
-        "<img src='/img/Introduction/009.png' />" +
-        "<img src='/img/Introduction/010.png' />" +
-        "<img src='/img/Introduction/011.png' />" +
-        "<img src='/img/Introduction/012.png' />" +
-        "<img src='/img/Introduction/013.png' />" +
-        "<img src='/img/Introduction/014.png' />" +
-        "<img src='/img/Introduction/015.png' />" +
-        "<img src='/img/Introduction/016.png' />" +
-        "<img src='/img/Introduction/017.png' style='margin-bottom: 10vh;'/>" +
+        "<img src='./img/Introduction/001.png' style='margin-top: 10vh;'/>" +
+        "<img src='./img/Introduction/002.png' />" +
+        "<img src='./img/Introduction/003.png' />" +
+        "<img src='./img/Introduction/004.png' />" +
+        "<img src='./img/Introduction/005.png' />" +
+        "<img src='./img/Introduction/006.png' />" +
+        "<img src='./img/Introduction/007.png' />" +
+        "<img src='./img/Introduction/008.png' />" +
+        "<img src='./img/Introduction/009.png' />" +
+        "<img src='./img/Introduction/010.png' />" +
+        "<img src='./img/Introduction/011.png' />" +
+        "<img src='./img/Introduction/012.png' />" +
+        "<img src='./img/Introduction/013.png' />" +
+        "<img src='./img/Introduction/014.png' />" +
+        "<img src='./img/Introduction/015.png' />" +
+        "<img src='./img/Introduction/016.png' />" +
+        "<img src='./img/Introduction/017.png' style='margin-bottom: 10vh;'/>" +
         "<div class='Contents' style='width : 100vw; height: 40vh; background-color: #D3D6C4; text-align: start; display: flex; align-items: flex-end; padding-bottom: 10vh;'>" +
             "<div style='width: 60vw; font-size: 15px; color: white; display: flex; flex-direction: column;'>" +
                 "<p style='margin-top: 0;'>(주) 포근</p>" +
@@ -79,49 +79,16 @@ function Store() {
     "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
     "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
     "                        <td>" +
-    "                            <img src='/img/product.png' />" +
+    "                            <img src='./img/product.png' />" +
     "                        </td>" +
     "                        <td>" +
-    "                            <img src='/img/product.png' />" +
+    "                            <img src='./img/product.png' />" +
     "                        </td>" +
     "                        <td>" +
-    "                            <img src='/img/product.png' />" +
+    "                            <img src='./img/product.png' />" +
     "                        </td>" +
     "                        <td>" +
-    "                            <img src='/img/product.png' />" +
-    "                        </td>" +
-    "                    </tr>" +
-    "                    <tr class='store_txt'>" +
-    "                        <td>" +
-    "                            <p>MOMO (모모)</p>" +
-    "                            <p>139,900원</p>" +
-    "                        </td>" +
-    "                        <td>" +
-    "                            <p>MOMO (모모)</p>" +
-    "                            <p>139,900원</p>" +
-    "                        </td>" +
-    "                        <td>" +
-    "                            <p>MOMO (모모)</p>" +
-    "                            <p>139,900원</p>" +
-    "                        </td>" +
-    "                        <td>" +
-    "                            <p>MOMO (모모)</p>" +
-    "                            <p>139,900원</p>" +
-    "                        </td>" +
-    "                    </tr>" +
-    "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
-    "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
-    "                        <td>" +
-    "                            <img src='/img/product.png' />" +
-    "                        </td>" +
-    "                        <td>" +
-    "                            <img src='/img/product.png' />" +
-    "                        </td>" +
-    "                        <td>" +
-    "                            <img src='/img/product.png' />" +
-    "                        </td>" +
-    "                        <td>" +
-    "                            <img src='/img/product.png' />" +
+    "                            <img src='./img/product.png' />" +
     "                        </td>" +
     "                    </tr>" +
     "                    <tr class='store_txt'>" +
@@ -145,16 +112,49 @@ function Store() {
     "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
     "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
     "                        <td>" +
-    "                            <img src='/img/product.png' />" +
+    "                            <img src='./img/product.png' />" +
     "                        </td>" +
     "                        <td>" +
-    "                            <img src='/img/product.png' />" +
+    "                            <img src='./img/product.png' />" +
     "                        </td>" +
     "                        <td>" +
-    "                            <img src='/img/product.png' />" +
+    "                            <img src='./img/product.png' />" +
     "                        </td>" +
     "                        <td>" +
-    "                            <img src='/img/product.png' />" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
+    "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
     "                        </td>" +
     "                    </tr>" +
     "                    <tr class='store_txt'>" +
