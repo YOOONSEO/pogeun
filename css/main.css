@@ -73,6 +73,10 @@ body {
     background-position: center;
 }
 
+#Introduction img {
+    width: 60vw;
+}
+
 #Store table, th, td{
     /* border-top : 1px solid rgb(68, 68, 68); 
     border-bottom : 1px solid rgb(68, 68, 68);  */
