@@ -25,17 +25,19 @@ body {
     justify-content: space-between;
 
     font-weight: bold;
-    font-size: 2.8vh;
+    font-size: 18px;
     border-bottom: 1px solid #dddddd; 
+}
+#MenuWrapper p:hover {
+    color: #88B2D1;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
 }
 
 .Logo {
     height: 5vh;
 }
-
-/* .Menu {
-
-} */
 
 .BodyWrapper {
     height: 90vh;
@@ -73,6 +75,20 @@ body {
     background-position: center;
 }
 
+#btn {
+    color: white; 
+    font-weight: bold; 
+    background-color: #FE9367;
+    margin: 0;
+    padding: 20px; 
+    border-radius: 50px;
+}
+
+#btn:hover{
+    background-color: #88B2D1;
+    cursor:pointer;
+}
+
 #Introduction img {
     width: 60vw;
 }
@@ -83,14 +99,20 @@ body {
     border-collapse : collapse;
 }
 
+#Store th:hover {
+    background-color: #88B2D1;
+    color: white;
+    cursor:pointer;
+}
+
 .store_photo td {
-    height: 35vh;
+    height: 20vh;
     background-color: white;
     text-align: center;
     border: 1px solid rgb(152, 152, 152);
 }
 .store_photo img {
-    height: 35vh;
+    height: 20vh;
 }
 
 .store_txt td {
@@ -99,7 +121,7 @@ body {
 }
 
 .store_txt p {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .material-symbols-outlined {
@@ -128,6 +150,7 @@ input {
 
 .Qna tr:hover {
     background-color: #88B2D1;
+    cursor:pointer;
 }
 
 .qnA td{

@@ -5,7 +5,7 @@ function Main() {
             "style='display: flex; flex-direction: column; justify-content: center; align-items: center;'>" +
             "<p>당신의 밤을</p>" +
             "<p>모기보단 포근하게</p>" +
-            "<p onclick='Store()' style='font-size: 20px; color: white; font-weight: bold; background-color: #FE9367; margin: 0; padding: 20px; border-radius: 50px;'>" +
+            "<p id='btn' onclick='Store()' style='font-size: 20px;'>" +
                 "S H O P N O W</p>" +
         "</div>" +
         "<div class='Contents' style='height: 70vh;background-color: #e7e9e1; display: flex; flex-direction: column; justify-content: center; align-items: center;'>" +
@@ -63,18 +63,18 @@ function Introduction() {
 
 function Store() {
     document.getElementById('HERE').innerHTML =
-    "<div id='Store'style='display: flex; justify-content: center; margin-top: 5vh; margin-bottom: 5vh;'>" +
+    "<div id='Store' style='display: flex; justify-content: center; margin-top: 15vh; margin-bottom: 5vh;'>" +
     "        <div style='flex-direction: column;'>" +
     "            <table style='width: 70vw; table-layout: fixed; word-break: break-all;'>" +
-    "                <tr style='font-size: 23px; background-color: #d8dad2; height: 8vh; border: 1px solid white;'>" +
+    "                <tr style='font-size: 18px; background-color: #d8dad2; height: 6vh; border: 2px solid white;'>" +
     "                    <th style='border: 1px solid white;'>전체 상품</th>" +
     "                    <th style='border: 1px solid white;'>모모</th>" +
     "                    <th style='border: 1px solid white;'>부속품</th>" +
     "                    <th style='border: 1px solid white;'>기타</th>" +
     "                </tr>" +
-    "                <tr style='height: 3vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
+    "                <tr style='height: 2vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
     "            </table>" +
-    "            <div class='BodyWrapper' style='height: 71vh;'>" +
+    "            <div class='BodyWrapper' style='height: 63vh;'>" +
     "                <table style='width: 70vw; table-layout: fixed; word-break: break-all;'>" +
     "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
     "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
@@ -90,8 +90,15 @@ function Store() {
     "                        <td>" +
     "                            <img src='./img/product.png' />" +
     "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
     "                    </tr>" +
     "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
     "                        <td>" +
     "                            <p>MOMO (모모)</p>" +
     "                            <p>139,900원</p>" +
@@ -123,8 +130,15 @@ function Store() {
     "                        <td>" +
     "                            <img src='./img/product.png' />" +
     "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
     "                    </tr>" +
     "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
     "                        <td>" +
     "                            <p>MOMO (모모)</p>" +
     "                            <p>139,900원</p>" +
@@ -156,8 +170,215 @@ function Store() {
     "                        <td>" +
     "                            <img src='./img/product.png' />" +
     "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
     "                    </tr>" +
     "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
+    "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
+    "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
+    "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
+    "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr style='height: 1vh; border-left: 1px solid #F1F2EC; border-right: 1px solid #F1F2EC;'/>" +
+    "                    <tr class='store_photo' style='border: 1px solid rgb(152, 152, 152);'>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                        <td>" +
+    "                            <img src='./img/product.png' />" +
+    "                        </td>" +
+    "                    </tr>" +
+    "                    <tr class='store_txt'>" +
+    "                        <td>" +
+    "                            <p>MOMO (모모)</p>" +
+    "                            <p>139,900원</p>" +
+    "                        </td>" +
     "                        <td>" +
     "                            <p>MOMO (모모)</p>" +
     "                            <p>139,900원</p>" +
